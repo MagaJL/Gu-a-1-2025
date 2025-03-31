@@ -5,18 +5,18 @@ using UnityEngine;
 public class Num1 : MonoBehaviour
 {
     public int num1;
-    int resultado;
+
 
     // Start is called before the first frame update
     void Start()
     {
         num1 = 0;
 
-        resultado = num1 + 2;
-        Debug.Log(resultado);
+        num1 = num1 + 2;
+        Debug.Log(num1);
 
-        resultado = resultado * resultado;
-        Debug.Log(resultado);
+        num1 = num1 * num1;
+        Debug.Log(num1);
     }
 
     // Update is called once per frame
